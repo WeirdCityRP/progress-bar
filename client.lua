@@ -1,8 +1,8 @@
-function startUI(time, text) 
+AddEventHandler('ProgressBar', function(time, text)
 	SendNUIMessage({
-		type = "ui",
+		type = "progressbar",
 		display = true,
 		time = time,
 		text = text
 	})
-end
+end)
